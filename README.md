@@ -32,7 +32,14 @@ Concepts Learned:
 - 🛠️ Dockerfile: Defines build instructions (base image, copy files, expose ports).
 
 - 🌍 Port Mapping: Allows external access to a containerized app.
-   
+
+✅ Task 1 — Dockerized Web App
+
+- built and ran a Docker container for a static HTML app (index.html) using Nginx.
+
+- learned how to create a Dockerfile, build an image, and access it locally.
+
+
 ## TASK 2 
 Objective 
 - Install and configure a local Keycloak instance (Identity and Access Management system) using Docker Compose.
@@ -67,3 +74,25 @@ A user: suzy
 
 A role: user
 
+
+
+
+<img width="1906" height="812" alt="image" src="https://github.com/user-attachments/assets/2a7550db-03a3-4568-b788-5e94151a2854" />
+
+<img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/5831a71c-60ca-40e0-a18a-60947dcb847c" />
+
+
+
+
+✅ Task 2 (Part 1) — Keycloak Setup
+- A new realm (myrealm)
+
+- A client (suzy-web-client)
+
+ linked your app to Keycloak by updating index.html with authentication logic.
+
+✅ Task 2 (Part 2) — Integration Test
+
+- You rebuilt and ran your web app container (suzy-web-app) with Keycloak integration.
+
+- When opening http://localhost:8081, it redirected to Keycloak for login — showing the authentication link is working.
