@@ -55,7 +55,8 @@ Objective
 | **1** | Containerization of a web app                | Docker                    | Running a static app in an isolated environment |
 | **2** | Multi-service orchestration & authentication | Docker Compose + Keycloak | Deploying a secure, scalable IAM system locally |
 
-<img width="975" height="528" alt="image" src="https://github.com/user-attachments/assets/51c260ad-4461-4b6b-90ba-66b6b9ff1ada" />
+<img width="1905" height="849" alt="image" src="https://github.com/user-attachments/assets/afb13607-86b9-40db-90af-25f6d7173e13" />
+
 
 
 A realm: myrealm
