@@ -1,4 +1,11 @@
 # Docker-Introduction
+| Step       | Purpose                                          | Builds on                             |
+| ---------- | ------------------------------------------------ | ------------------------------------- |
+| **Task 1** | Create and run a static web app in Docker        | Base app running                      |
+| **Task 2** | Add Keycloak with Docker Compose and link to app | App now has login system via Keycloak |
+
+
+
 ## TASK 1
 
 Objective:
@@ -50,4 +57,12 @@ Objective
 
 <img width="975" height="528" alt="image" src="https://github.com/user-attachments/assets/51c260ad-4461-4b6b-90ba-66b6b9ff1ada" />
 
+
+A realm: myrealm
+
+A client: my-app
+
+A user: suzy
+
+A role: user
 
