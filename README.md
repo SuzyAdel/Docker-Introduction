@@ -108,9 +108,11 @@ A role: user
 - develop a simple application that uses one of the authentication flows with keycloak to login using that user
 
 ## if loged in msg :
-<img width="1919" height="710" alt="image" src="https://github.com/user-attachments/assets/aa8bcf2f-9a55-4a37-91f2-a23a2f61f277" />
+<img width="1913" height="861" alt="image" src="https://github.com/user-attachments/assets/f3300fd1-2ba5-4004-8550-5c1a0d43ae63" />
+
 
 <img width="1915" height="968" alt="image" src="https://github.com/user-attachments/assets/112a1c9b-5d22-4d46-8d7e-3a9180212080" />
+
 ## if there is an error msg: 
 <img width="1852" height="1017" alt="image" src="https://github.com/user-attachments/assets/9936d5b3-c5e8-4cd3-8e6b-23f25c596dd7" />
 
