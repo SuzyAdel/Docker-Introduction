@@ -3,28 +3,49 @@
 <head>
   <meta charset="utf-8"/>
   <title>My Dockerized App — Suzy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #f0f4ff, #e4ebff);
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #666;
+      font-size: 18px;
+      margin-top: 0;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align:center; padding:40px;">
+<body>
   <h1>Welcome to My First Dockerized App 🚀</h1>
   <p>Modified by Suzy — running inside Docker.</p>
-<script src="https://cdn.jsdelivr.net/npm/keycloak-js@latest/dist/keycloak.min.js"></script>
-<script>
-  const keycloak = new Keycloak({
-    url: "http://localhost:8080",
-    realm: "myrealm",
-    clientId: "suzy-web-client"
-  });
 
-  keycloak.init({ onLoad: 'login-required' }).then(authenticated => {
-    if (authenticated) {
-      document.body.innerHTML += `<p>Welcome, ${keycloak.tokenParsed.preferred_username}!</p>`;
-    } else {
-      keycloak.login();
-    }
-  }).catch(err => {
-    console.error("Keycloak init failed:", err);
-  });
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/keycloak-js@latest/dist/keycloak.min.js"></script>
+  <script>
+    const keycloak = new Keycloak({
+      url: "http://localhost:8080",
+      realm: "myrealm",
+      clientId: "suzy-web-client"
+    });
 
+    keycloak.init({ onLoad: 'login-required' }).then(authenticated => {
+      if (authenticated) {
+        document.body.innerHTML += `<p>Welcome, ${keycloak.tokenParsed.preferred_username}!</p>`;
+      } else {
+        keycloak.login();
+      }
+    }).catch(err => {
+      console.error("Keycloak init failed:", err);
+    });
+  </script>
 </body>
 </html>
