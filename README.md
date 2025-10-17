@@ -96,3 +96,20 @@ A role: user
 - You rebuilt and ran your web app container (suzy-web-app) with Keycloak integration.
 
 - When opening http://localhost:8081, it redirected to Keycloak for login — showing the authentication link is working.
+
+
+
+
+
+## Task 3 
+
+- expose the keycloak port to the host machine
+- create a user on keycloak 
+- develop a simple application that uses one of the authentication flows with keycloak to login using that user
+
+<img width="1919" height="710" alt="image" src="https://github.com/user-attachments/assets/aa8bcf2f-9a55-4a37-91f2-a23a2f61f277" />
+
+<img width="1915" height="968" alt="image" src="https://github.com/user-attachments/assets/112a1c9b-5d22-4d46-8d7e-3a9180212080" />
+
+<img width="1852" height="1017" alt="image" src="https://github.com/user-attachments/assets/9936d5b3-c5e8-4cd3-8e6b-23f25c596dd7" />
+
